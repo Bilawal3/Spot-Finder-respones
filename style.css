@@ -184,14 +184,13 @@
     width: 40%;
     height: 60px;
     border-radius: 50px;
-    text-align: center;
-    padding-top: 20px;
     font-size: 20px;
     margin-top: 50px;
     margin-left: 70px;
     color: white;
     background-color: #FF4B46;
     font-family: 'Roboto', sans-serif;
+    border: none;
 }
 
 #main .img {
@@ -405,14 +404,14 @@ h5 {
     margin-top: 6%;
 }
 
-.img1 {
+.fa{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     background-color: rgb(231, 155, 181);
     margin-top: 30px;
     margin-left: 30px;
-    padding-top: 10px;
+    padding-top: 15px;
     text-align: center;
     font-size: 25px;
     color: white;
@@ -507,7 +506,7 @@ h5 {
     }
 
     .leftside .btn {
-        width: 70%;
+        width: 50%;
         margin-top: 30px;
         margin-left: 40px;
     }
@@ -632,7 +631,7 @@ h5 {
     }
 
     .leftside .btn {
-        width: 70%;
+        width: 50%;
         margin-top: 30px;
         margin-left: 40px;
     }
@@ -786,7 +785,7 @@ h5 {
     }
 
     .leftside .btn {
-        width: 70%;
+        width: 50%;
         margin-top: 30px;
         margin-left: 40px;
     }
@@ -942,7 +941,7 @@ h5 {
     }
 
     .leftside .btn {
-        width: 70%;
+        width: 50%;
         margin-top: 30px;
         margin-left: 40px;
     }
@@ -1072,10 +1071,15 @@ h5 {
     .location .fa-solid {
         display: none;
     }
-
+    .location input {
+        outline: none;
+        border: none;
+        font-size: 15px;
+    }
     .leftside .select {
         width: 80%;
         margin-left: 10px;
+        font-size: 15px;
     }
 
     .leftside .check-in {
@@ -1092,9 +1096,11 @@ h5 {
     }
 
     .leftside .btn {
-        width: 70%;
+        width: 50%;
         margin-top: 30px;
         margin-left: 40px;
+        font-size: 15px;
+        padding-left: 0;
     }
 
     #main .img {
@@ -1170,11 +1176,11 @@ h5 {
     }
 
     #card1 h2 {
-        padding-left: 22%;
+        padding-left: 28%;
     }
 
     #card1 .icon {
-        margin-left: 22%;
+        margin-left: 28%;
     }
 
     #card1 p {
