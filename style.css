@@ -404,7 +404,7 @@ h5 {
     margin-top: 6%;
 }
 
-.fa{
+.fa {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -450,6 +450,238 @@ h5 {
     color: #FF4B46;
 }
 
+/* //////////////////////////////section4/////////////////////////////////// */
+#main4 {
+    width: 90%;
+    height: 520px;
+    border: 1px solid rgb(242, 255, 252);
+    margin-top: 30px;
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-car2 {
+    width: 30%;
+    height: 470px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 15px;
+}
+
+.card-car2 img {
+    width: 100%;
+    height: 230px;
+    margin-left: -2px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-car2 h2 {
+    padding-top: 60px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main4-heading h3 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 70px;
+}
+
+.main4-heading p {
+    padding-left: 6%;
+    font-size: 25px;
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(170, 170, 170);
+}
+
+.card-car2 p {
+    width: 450px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 7%;
+    color: rgb(128, 118, 118);
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-car2 a {
+    padding-top: 15px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #FF4B46;
+}
+
+/* /////////////////////////////section5/////////////////////////////////// */
+#main5 {
+    width: 90%;
+    height: 550px;
+    border: 1px solid rgb(242, 255, 252);
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.7) url(img/head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+#main5 h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-top: 13%;
+}
+
+#main5 p {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-top: 20px;
+}
+
+#main5 .btn {
+    width: 20%;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 40%;
+    color: white;
+    background-color: #FF4B46;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+/* /////////////////////////////section5/////////////////////////////////// */
+#main6 {
+    width: 100%;
+    height: 400px;
+    border-top: 5px solid #FF4B46;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    margin-left: 6%;
+}
+
+#main6 .about {
+    width: 30%;
+    height: 200px;
+    margin-top: 4%;
+}
+
+.about h3 {
+    color: #FF4B46;
+}
+
+.about p {
+    width: 80%;
+    font-size: 18px;
+    padding-top: 3%;
+    color: rgb(170, 170, 170);
+}
+
+#main6 .Company {
+    width: 30%;
+    height: 200px;
+    margin-top: 4%;
+}
+
+.Company h3 {
+    color: #FF4B46;
+}
+
+.Company p {
+    width: 80%;
+    font-size: 18px;
+    padding-top: 3%;
+    color: rgb(170, 170, 170);
+}
+
+#main6 .content {
+    width: 30%;
+    height: 200px;
+    margin-top: 4%;
+}
+
+.content h3 {
+    color: #FF4B46;
+}
+
+.content .p {
+    padding-top: 3%;
+}
+
+.content p {
+    width: 80%;
+    font-size: 18px;
+    padding-top: 1px;
+    color: rgb(170, 170, 170);
+}
+
+.content .fa-solid {
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+#main6 .Payment {
+    width: 30%;
+    height: 200px;
+    margin-top: 4%;
+}
+
+.Payment h3 {
+    font-size: 22px;
+    color: #FF4B46;
+}
+
+.Payment h2 {
+    padding-top: 10px;
+    color: #FF4B46;
+}
+
+.Payment .fa2 {
+    padding-left: 20px;
+}
+
+.Payment .fa-brands {
+    padding-top: 10px;
+    font-size: 25px;
+    color: #FF4B46;
+}
+
+.Payment .img {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    background-image: url(img/paymit.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#line {
+    width: 90%;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    border-top: 2px solid rgb(150, 150, 150);
+    color: rgb(105, 105, 105);
+    margin-left: 5%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
 
 
 
@@ -547,35 +779,61 @@ h5 {
         position: relative;
         left: 25%;
     }
-        /* //////////////////////////////section3/////////////////////////////////// */
-        #main3 {
-            width: 90%;
-            height: 100%;
-            border: 0.5px solid rgb(242, 255, 252);
-            margin-top: 50px;
-            margin-left: 5%;
-            font-family: 'Roboto', sans-serif;
-        }
-    
-        #main3 .card-box {
-            gap: 30px;
-        }
-    
-        #card1 {
-            width: 70%;
-        }
-    
-        #card1 h2 {
-            padding-left: 15%;
-        }
-    
-        #card1 .icon {
-            margin-left: 15%;
-        }
-    
-        #card1 p {
-            width: 90%;
-        }
+
+    /* //////////////////////////////section3/////////////////////////////////// */
+    #main3 {
+        width: 90%;
+        height: 100%;
+        border: 0.5px solid rgb(242, 255, 252);
+        margin-top: 50px;
+        margin-left: 5%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #main3 .card-box {
+        gap: 30px;
+    }
+
+    #card1 {
+        width: 70%;
+    }
+
+    #card1 h2 {
+        padding-left: 15%;
+    }
+
+    #card1 .icon {
+        margin-left: 15%;
+    }
+
+    #card1 p {
+        width: 90%;
+    }
+
+    /* //////////////////////////////section4/////////////////////////////////// */
+    .card-car2 p {
+        width: 90%;
+    }
+
+    /* //////////////////////////////section5/////////////////////////////////// */
+    #main5 {
+        width: 90%;
+        height: 450px;
+    }
+
+    #main5 h1 {
+        font-size: 40px;
+    }
+
+    #main5 p {
+        font-size: 17px;
+    }
+
+    #main5 .btn {
+        width: 30%;
+        font-size: 16px;
+        margin-left: 34%;
+    }
 
 }
 
@@ -691,39 +949,106 @@ h5 {
         flex-wrap: wrap;
         margin-bottom: 30px;
     }
-        /* //////////////////////////////section3/////////////////////////////////// */
-        #main3 {
-            width: 90%;
-            height: 100%;
-            border: 0.5px solid rgb(242, 255, 252);
-            margin-top: 50px;
-            margin-left: 5%;
-            font-family: 'Roboto', sans-serif;
-        }
-    
-        #main3 .card-box {
-            margin-top: 3%;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-    
-        #card1 {
-            width: 70%;
-        }
-    
-        #card1 h2 {
-            padding-left: 15%;
-        }
-    
-        #card1 .icon {
-            margin-left: 15%;
-        }
-    
-        #card1 p {
-            width: 90%;
-        }
+
+    /* //////////////////////////////section3/////////////////////////////////// */
+    #main3 {
+        width: 90%;
+        height: 100%;
+        border: 0.5px solid rgb(242, 255, 252);
+        margin-top: 50px;
+        margin-left: 5%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #main3 .card-box {
+        margin-top: 3%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    #card1 {
+        width: 70%;
+    }
+
+    #card1 h2 {
+        padding-left: 15%;
+    }
+
+    #card1 .icon {
+        margin-left: 15%;
+    }
+
+    #card1 p {
+        width: 90%;
+    }
+
+    /* //////////////////////////////section4/////////////////////////////////// */
+    #main4 {
+        width: 90%;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .card-car2 {
+        width: 40%;
+    }
+
+    .card-car2 p {
+        width: 90%;
+    }
+
+    /* //////////////////////////////section5/////////////////////////////////// */
+    #main5 {
+        width: 90%;
+        height: 450px;
+    }
+
+    #main5 h1 {
+        font-size: 40px;
+    }
+
+    #main5 p {
+        font-size: 17px;
+    }
+
+    #main5 .btn {
+        width: 30%;
+        font-size: 16px;
+        margin-left: 34%;
+    }
+
+    /* /////////////////////////////section6/////////////////////////////////// */
+
+    #form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 6%;
+    }
+
+    #main6 .about {
+        width: 25%;
+        margin-top: 4%;
+    }
+
+    #main6 .Company {
+        width: 25%;
+        margin-top: 4%;
+    }
+
+    #main6 .content {
+        width: 25%;
+        height: 300px;
+        margin-top: 4%;
+    }
+
+    #main6 .Payment {
+        width: 25%;
+        margin-top: 4%;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -880,6 +1205,71 @@ h5 {
         width: 90%;
     }
 
+    /* //////////////////////////////section4/////////////////////////////////// */
+    #main4 {
+        width: 90%;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .card-car2 {
+        width: 40%;
+    }
+
+    .card-car2 p {
+        width: 90%;
+    }
+
+    /* //////////////////////////////section5/////////////////////////////////// */
+    #main5 {
+        width: 90%;
+        height: 400px;
+    }
+
+    #main5 h1 {
+        font-size: 35px;
+    }
+
+    #main5 p {
+        font-size: 17px;
+    }
+
+    #main5 .btn {
+        width: 30%;
+        font-size: 16px;
+        margin-left: 33%;
+    }
+
+    /* /////////////////////////////section6/////////////////////////////////// */
+
+    #form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 6%;
+    }
+
+    #main6 .about {
+        width: 30%;
+        margin-top: 4%;
+    }
+
+    #main6 .Company {
+        width: 30%;
+        margin-top: 4%;
+    }
+
+    #main6 .content {
+        width: 30%;
+        height: 300px;
+        margin-top: 4%;
+    }
+
+    #main6 .Payment {
+        width: 30%;
+        margin-top: 2%;
+    }
 }
 
 @media screen and (max-width: 776px) {
@@ -1030,6 +1420,71 @@ h5 {
         width: 90%;
     }
 
+    /* //////////////////////////////section4/////////////////////////////////// */
+    #main4 {
+        width: 90%;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .card-car2 {
+        width: 60%;
+    }
+
+    .card-car2 p {
+        width: 90%;
+    }
+
+    /* //////////////////////////////section5/////////////////////////////////// */
+    #main5 {
+        width: 90%;
+        height: 350px;
+    }
+
+    #main5 h1 {
+        font-size: 30px;
+    }
+
+    #main5 p {
+        font-size: 17px;
+    }
+
+    #main5 .btn {
+        width: 40%;
+        font-size: 16px;
+        margin-left: 30%;
+    }
+
+    /* /////////////////////////////section6/////////////////////////////////// */
+
+    #form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 6%;
+    }
+
+    #main6 .about {
+        width: 90%;
+        margin-top: 4%;
+    }
+
+    #main6 .Company {
+        width: 90%;
+        margin-top: 2%;
+    }
+
+    #main6 .content {
+        width: 90%;
+        height: 300px;
+        margin-top: 2%;
+    }
+
+    #main6 .Payment {
+        width: 90%;
+        margin-top: 2%;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -1071,11 +1526,13 @@ h5 {
     .location .fa-solid {
         display: none;
     }
+
     .location input {
         outline: none;
         border: none;
         font-size: 15px;
     }
+
     .leftside .select {
         width: 80%;
         margin-left: 10px;
@@ -1185,5 +1642,71 @@ h5 {
 
     #card1 p {
         width: 90%;
+    }
+
+    /* //////////////////////////////section4/////////////////////////////////// */
+    #main4 {
+        width: 90%;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .card-car2 {
+        width: 80%;
+    }
+
+    .card-car2 p {
+        width: 90%;
+    }
+
+    /* //////////////////////////////section5/////////////////////////////////// */
+    #main5 {
+        width: 90%;
+        height: 350px;
+    }
+
+    #main5 h1 {
+        font-size: 30px;
+    }
+
+    #main5 p {
+        font-size: 17px;
+    }
+
+    #main5 .btn {
+        width: 40%;
+        font-size: 16px;
+        margin-left: 30%;
+    }
+
+    /* /////////////////////////////section6/////////////////////////////////// */
+
+    #form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 6%;
+    }
+
+    #main6 .about {
+        width: 90%;
+        margin-top: 4%;
+    }
+
+    #main6 .Company {
+        width: 90%;
+        margin-top: 2%;
+    }
+
+    #main6 .content {
+        width: 90%;
+        height: 300px;
+        margin-top: 2%;
+    }
+
+    #main6 .Payment {
+        width: 90%;
+        margin-top: 2%;
     }
 }
